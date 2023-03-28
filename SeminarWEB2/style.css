@@ -1,0 +1,46 @@
+@font-face {
+	font-family: 'Caviar Dreams';
+	src: url('fonts/caviar_dreams.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/caviar_dreams.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/caviar_dreams.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/caviar_dreams.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/caviar_dreams.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/caviar_dreams.svg#caviar_dreams') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+p{
+    color: darkblue;
+}
+
+h1{
+    color: brown;
+}
+a{
+    color: darkgreen;
+}
+
+a:hover{
+    color: crimson;
+}
+
+body{
+    background-color: rgb(204, 207, 207);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+img{
+    width: 400px;
+}
+
+.big_text{
+    font-size: 2rem;
+    font-family: 'Caviar Dreams', sans-serif;
+}
+
+ul{
+    list-style-type: square;
+}
+body{
+    display: flex;
+    justify-content: center;
+}
